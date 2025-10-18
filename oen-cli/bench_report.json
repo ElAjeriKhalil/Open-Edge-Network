@@ -1,0 +1,24 @@
+{
+  "hw": {
+    "gpu": {
+      "vendor": "NVIDIA",
+      "name": "NVIDIA GeForce RTX 4060",
+      "driver": "581.08",
+      "vramBytes": 8585740288
+    },
+    "cpu": {
+      "model": "Intel(R) Core(TM) i7-14700F",
+      "cores": 28
+    },
+    "os": {
+      "platform": "win32",
+      "release": "10.0.26200"
+    }
+  },
+  "bench": {
+    "fp16_tflops": 5,
+    "fp32_tflops": 2,
+    "mem_gbps": 100
+  },
+  "gpuHash": "0x1094ffa1402a16cd520a83cf740c82f34111f502c47a30e6b3b127fdecae3c60"
+}

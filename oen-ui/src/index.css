@@ -1,0 +1,16 @@
+:root { font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; }
+body { margin:0; background:#0b0e13; color:#eaeef5; }
+.container { max-width: 980px; margin: 32px auto; padding: 0 16px; }
+h1 { font-size: 28px; margin-bottom: 16px; }
+h2 { font-size: 18px; margin: 24px 0 12px; }
+section { border: 1px solid #243042; border-radius: 12px; padding: 16px; margin-bottom: 16px; background:#111722; }
+input { width:100%; padding:10px; border-radius:8px; border:1px solid #2a3a4f; background:#0e1520; color:#eaeef5; }
+label { display:flex; flex-direction:column; gap:8px; }
+button { padding:10px 14px; border-radius:10px; border:1px solid #2b63ff; background:#2b63ff; color:#fff; cursor:pointer; }
+button.secondary { background:transparent; color:#eaeef5; border-color:#3a4a63; }
+.row { display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap; }
+.grid { display:grid; gap:12px; grid-template-columns: repeat(2,minmax(0,1fr)); }
+.pre { background:#0e1520; padding:12px; border-radius:8px; overflow:auto; max-height:320px; }
+@media (max-width: 720px) {
+  .grid { grid-template-columns: 1fr; }
+}

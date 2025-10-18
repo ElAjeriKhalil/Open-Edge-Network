@@ -1,0 +1,18 @@
+{
+  "name": "oen-cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "oen": "./bin/oen.js"
+  },
+  "scripts": {
+    "start": "node bin/oen.js",
+    "help": "node bin/oen.js --help"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2",
+    "node-fetch": "^3.3.2"
+  }
+}

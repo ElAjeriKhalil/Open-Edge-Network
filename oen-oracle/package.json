@@ -1,0 +1,7 @@
+{
+  "name": "oen-oracle",
+  "type": "module",
+  "private": true,
+  "scripts": { "start": "node index.js" },
+  "dependencies": { "express": "^4.19.2", "ethers": "^6.13.2" }
+}
